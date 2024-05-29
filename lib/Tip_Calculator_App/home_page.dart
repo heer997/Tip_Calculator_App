@@ -254,13 +254,14 @@ class HomePageState extends State<HomePage> {
               fillColor: Colors.white,
               filled: true,
               prefixText: "\$",
-              border: OutlineInputBorder(
-                borderSide: BorderSide(
-                  style: BorderStyle.none,
-                  color: Colors.white,
-                  width: 1.0,
-                ),
-              ),
+              border: InputBorder.none,
+              // border: OutlineInputBorder(
+              //   borderSide: BorderSide(
+              //     style: BorderStyle.none,
+              //     color: Colors.white,
+              //     width: 1.0,
+              //   ),
+              // ),
             ),
           ),
         ),
